@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <title> Simply Eats </title>
+        <link rel = "stylesheet" href = "mystyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <script src="myscripts.js"></script>
+        <header> <!-- Creates the header section that contains the logo and navigation menu. -->
+            <nav> <!-- A container for the navigation bar. -->
+                <ul class = "navBar"> <!-- An unordered list for the navigation items. -->
+                    <ul class = "logoGrp">
+                        <li class = "logo"><a href = "#"><img src = "images/Sim-removebg-preview.png" alt = "SimplyEats"></a></li> <!-- Displays the websites logo imported from the desktop. -->
+                        <h1 class = "logo-text">SimplyEats</h1>
+                    </ul>
+                    <input type = "checkbox" id = "check">
+                    <span class = "menu">
+                        <li><a href = "#">Recipe of the Day</a></li> <!-- Each nav item is displayed as a list. -->
+                        <li><a href = "#">Recipes</a></li>
+                        <li><a href = "#">In the kitchen</a></li>
+                        <li><a href = "#">About Us</a></li>
+                        <label for = "check" class = "close-menu"><i class = "fas fa-times"></i></label>
+                    </span>
+                    <label for = "check" class = "open-menu"><i class = "fas fa-bars"></i></label>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class = "seg1"> 
+                <img src = "images/simply-recipes-brooklyn-blackout-cake-lead-7-8703ec2d0e664b9fa17c4816903de128.webp" class = "img1" alt = "Chocolate cake"> 
+                <div class = "seg1-con">
+                    <p class = "p-color">DESSERTS</p>
+                    <h2>The World's Best Chocolate Cake Is Also the Easiest</h2>
+                    <p>My take the classic Brooklyn Blackout Cake is so much simpler than the original but just as delicious. The one-bowl, one-layer chocolate cake is topped with a 2-ingredient whipped ganache for an indulgent experience.</p>
+                </div>
+            </section>
+            <section class = "seg2">
+                <img src = "images/food-illustration-3.jpg" class = "img2" alt = "Strawberry cream-filled crepe"> 
+                <div class = "seg2-textgrp">
+                    <h2>Sharing the joy of Home-cooking since <span class = "bold">1999</span></h2>
+                    <p class = "seg2-txt">Inspiring <span class = "bold">10 Million</span> home cooks a month</p>
+                </div>
+            </section>
+            <section class = "seg3">
+                <div class = "grp-seg-title">
+                    <h2>Trending Today</h2>
+                </div>
+                <div class = "maintrend-div">
+                    <div class = "trend-div">
+                        <img src = "images/simply-recipes-roasted-vegetables-tip-lead-01-1519456c931545d2b2dd6217d65fb80d.webp" class = "imgtrend" alt = "Vegetables">
+                        <div class = "trend-txt"> 
+                            <p class = "p-color">COOKING TIPS & TECHNIQUES</p>
+                            <h2>How to Perfectly Roast Any Vegetable</h2>
+                        </div>
+                    </div>
+                
+                
+                    <div class = "trend-div">
+                        <img src = "images/Simply-Recipes-Kitchen-Refresh-LEAD-1-1ed45eb057af40b4931241c1890b5fbc.webp" class = "imgtrend" alt = "Kitchen">
+                        <div class = "trend-txt"> 
+                            <p class = "p-color">CLEANING & ORGANIZING</p>
+                            <h2>The One Kitchen Upgrade to Make Right Now </h2>
+                        </div>
+                    </div>
+                
+                
+                    <div class = "trend-div">
+                        <img src = "images/simply-recipes-garlic-chicken-poatoes-lead-1-5c8e00ffeaf24e23baf9f39ef2f29fe7.webp" class = "imgtrend" alt = "Chicken">
+                        <div class = "trend-txt"> 
+                            <p class = "p-color">DINNERS</p>
+                            <h2>The One-Pan Chicken Dinner You Need To Cook</h2>
+                        </div>
+                    </div>
+                
+                
+                    <div class = "trend-div">
+                        <img src = "images/Simply-Recipes-Le-Creuset-LEAD-01-1e10adc4c3b44892abe06ff19cbadc45.webp" class = "imgtrend" alt = "Pots">
+                        <div class = "trend-txt"> 
+                            <p class = "p-color">EQUIPMENT GUIDES</p>
+                            <h2>The Difference Between a Dutch Oven and a Braiser</h2>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <section class = "seg4">
+                <div class = "sec-team">
+                    <h2>Meet The SimplyEats Team!</h2>
+                    <br>
+                    <p>SimplyEats is a trusted resource for home cooks with more than 2,000 tested recipes,
+                        guides, and meal plans, drawing over 10 million readers each month from all over the globe.
+                        We're supported by a gourp of recipe developers, food writers, product testers,
+                        and other creative professionals.
+                    </p>
+                    <br>
+                    <button>READ MORE</button>
+                </div>
+                <div class = "food-dev-sec">
+                    <div class = "person">
+                        <img src = "images/NancyOdogwu1-6369b6f51f4342f2a8ea2064ee9b1fd4.webp" class = "circle" alt = "Person1">
+                        <p class = "pcolor">NANCY ODOGWU</p>
+                        <p>CONTRIBUTING WRITER</p>
+                    </div>
+                    <div class = "person">
+                        <img src = "images/Sheela-23-SheelaPrakash-4e6ac0037b1b4bc58ca1de95058f0238.webp" class = "circle" alt = "Person2">
+                        <p class = "pcolor">SHEELA PRAKASH</p>
+                        <p>CONTRIBUTING WRITER</p>
+                    </div>
+                    <div class = "person">
+                        <img src = "images/stephanieganzheadshot-30269524ff084fceac4541205386f9bf.webp" class = "circle" alt = "Person3">
+                        <p class = "pcolor">STEPHANIE A GANZ</p>
+                        <p>CONTRIBUTING WRITER</p>
+                    </div>
+                    <div class = "person">
+                        <img src = "images/KalisaMarie-Headshot12-KalisaMarieEats-f451d09a80ff403aa202f84d5dca7fa6.webp" class = "circle" alt = "Person4">
+                        <p class = "pcolor">KALISA MARTIN</p>
+                        <p>CONTRIBUTING WRITER</p>
+                    </div>
+                    <div class = "person">
+                        <img src = "images/MicahSivaHeadshot-e82603409b7047928194eb1a2f66aa05.webp" class = "circle" alt = "Person5">
+                        <p class = "pcolor">MICAH SIVA</p>
+                        <p>CONTRIBUTING WRITER</p>
+                    </div>
+                    <div class = "person">
+                        <img src = "images/image0-4dfa23f915224108aac41d0a676cc36d.webp" class = "circle" alt = "Person6">
+                        <p class = "pcolor">KRISTY MUCCI</p>
+                        <p>CONTRIBUTING WRITER</p>
+                    </div>
+                </div>
+                <section class = "seg5">
+                    <div class = "grp-seg-title">
+                        <h2>Mediterranean-Inspired</h2>
+                    </div>
+                    <div class = "seg5-div-grp">
+                        <div class = "group-divs">
+                            <img src = "images/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__11__Spanakopita-Spinach-Pie-Lead-2-5853e3a0834d406c9cf2b906fecf0dd4.webp" class = "foodimg" alt = "Spanakopita">
+                            <div class = "rec-div">
+                                <p class = "p-color">EASY VEGETARIAN</p>
+                                <h2>Spanakopita</h2>
+                                <div class = "time-rate">
+                                    <div class = "time">
+                                        <i class = "fa-light fa-timer"></i>
+                                        <p>70 mins</p>
+                                    </div>
+                                    <div class = "rate">
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star-half-full"></i>
+                                        <i class = "fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "group-divs">
+                            <img src = "images/Simply-Recipes-Mediterranean-Chicken-Marinade-LEAD-2-34417cf0c6b74c40ac2e4a3c203125c1.webp" class = "foodimg" alt = "Mediterranean Chicken Marinade">
+                            <div class = "rec-div">
+                                <p class = "p-color">CHICKEN</p>
+                                <h2>Mediterranean Chicken Marinade</h2>
+                                <div class = "time-rate">
+                                    <div class = "time">
+                                        <i class = "fa-light fa-timer"></i>
+                                        <p>5 mins</p>
+                                    </div>
+                                    <div class = "rate">
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "group-divs">
+                            <img src = "images/Simply-Recipes-Caldo-Verde-LEAD-1-8d0ada6de3464a4d951ce9e4ef805658.webp" class = "foodimg" alt = "Mediterranean Soup">
+                            <div class = "rec-div">
+                                <p class = "p-color">EASY SOUPS</p>
+                                <h2>The 3-Step Mediterranean Soup I Cook All the Time</h2>
+                                <div class = "time-rate">
+                                    <div class = "time">
+                                        <i class = "fa-light fa-timer"></i>
+                                        <p>35 mins</p>
+                                    </div>
+                                    <div class = "rate">
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                        <i class = "fa fa-star checked"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <footer>
+                        <div class = "footer-sec1-2">
+                            <div class = "footer-sec1">
+                                <div class = "footer-logo-cook">
+                                    <div class = "footer-logo">
+                                        <img src = "images/Sim-removebg-preview.png" class = "logo" alt = "SimplyEats">
+                                        <h1 class = "logo-txt-footer">SimplyEats</h1>
+                                    </div>
+                                    <div class = "Readytocook">
+                                        <h3>Ready to cook?</h3>
+                                        <p>Sign up for our weekly newsletters!</p>
+                                        <input type = "text" class = "email-entry" value = "Enter your email address">
+                                        <button class = "signup">SIGN UP</button>
+                                    </div>
+                                    <div class = "friends">
+                                        <p>LET'S BE FRIENDS!</p>
+                                        <div class = "socials">
+                                            <div class = "icon">
+                                                <i class="fa-brands fa-facebook-f" a href = "#"></i>
+                                            </div>
+                                            <div class = "icon">
+                                                <i class="fa-brands fa-instagram" a href = "#"></i>
+                                            </div>
+                                            <div class = "icon">
+                                                <i class="fa-brands fa-youtube" a href = "#"></i>
+                                            </div>
+                                            <div class = "icon">
+                                                <i class="fa-brands fa-pinterest" a href = "#"></i>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class = "footer-sec2">
+                                <ul>
+                                    <li><a href = "#">RECIPE OF THE DAY</a></li>
+                                    <li><a href = "#">RECIPES</a></li>
+                                    <li><a href = "#">IN THE KITCHEN</a></li>
+                                    <li><a href = "#">ABOUT US</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class = "footer-sec3">
+                            <p>2025 SimplyEats. All rights reserved.</p>
+                        </div>
+                    </footer>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,443 @@
+:root { /* The root attribute creates variables that are used throughout the CSS for styling. */
+    --background_color: #ffffff; /* Set as the web page's background color. */
+    --background_color2: #3b7d84; 
+    --background_color3: #F0F9F9;
+    --text_color: #000000;
+    --color: #FBD976;
+    --bttnColor: #f9ffe1; 
+    --color2: #307777;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-family: "Playfair-Display", serif !important;
+    font-weight: lighter;
+}
+
+.p-color {
+    color: #B34726;
+}
+
+.logo-text {
+        display: none;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed; 
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--background_color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu li {
+        margin-top: 40px;
+    }
+
+    .menu li a {
+        padding: 10px;
+    }
+
+    .open-menu, .close-menu {
+        display:block;
+    }
+
+    #check:checked ~ .menu {
+        right: 0;
+    }
+
+    .img1 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .seg1-con {
+        border: 3px solid #E8C26B;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .grp-seg-title h2{
+        text-align: center;
+        font-weight: lighter;
+        text-decoration: underline;
+        text-decoration-color: #E8C26B;
+        text-underline-offset: 6.5px;
+        margin: 2rem;
+    }
+
+    .seg2-textgrp {
+        text-align: center;  
+        padding: 2rem;
+        box-sizing: border-box;
+        border: 1px solid #B34726;
+        background-color: rgb(251, 249, 247);
+    }
+
+    .seg2 h2 {
+        color: #307777;
+        font-family: "Playfair-Display", serif;
+    }
+    
+    .seg2 p {
+        color: #307777;
+    }
+    
+    .seg2 span{
+        color: #307777;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .trend-div {
+        text-align: center;
+    }
+
+    .imgtrend {
+        width: 95%;
+    }
+
+    .trend-txt {
+        margin: auto;
+        width: 95%;
+        padding: 1rem;
+        text-align: left;
+        margin-bottom: 3rem;
+        box-sizing: border-box;
+        border: 2px solid #67c6d1;
+    }
+
+    .trend-txt p {
+        font-weight: bold;
+    }
+
+    .trend-txt h2 {
+        font-weight: lighter;
+    }
+
+    .sec-team {
+        text-align: left;
+        padding: 2rem;
+        box-sizing: border-box;
+        border-style: ridge;
+        border: 5px solid var(--background_color2);
+    }
+
+    .sec-team h2 {
+        font-weight: lighter;
+    }
+
+    .sec-team button {
+        padding: 10px;
+        background-color: #f8e1d1;
+        border: none;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .food-dev-sec {
+        margin:0;
+        padding: 1rem;
+        background-color: #f8e1d1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: auto;
+        white-space: nowrap;
+    }
+     
+    .person {
+        padding: 1rem;
+        text-align: center;
+        font-weight: bold;
+        font-size: smaller;
+    }
+
+    .pcolor {
+        color: var(--background_color2);
+    }
+
+    .circle {
+        border-radius: 50%;
+        border: 1px solid var(--background_color2);
+        margin-bottom: 1rem;
+    }
+
+    .seg5 {
+        text-align: center;
+    }
+
+    .foodimg {
+        width: 95%;
+    }
+
+    .rec-div {
+        margin: auto;
+        text-align: left;
+        padding: 1rem;
+        width: 95%;
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+        border: 2px solid #67c6d1;
+    }
+
+    .rec-div p {
+        font-weight: bold;
+    }
+
+    .rec-div h2 {
+        font-weight: lighter;
+    }
+
+    .time-rate {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-sec1 {
+        padding: 2rem;
+        border-top: 1px solid var(--color);
+    }
+
+    .footer-logo {
+        align-items: center;
+    }
+
+    .logo-txt-footer {
+        font-family: "Playfair Display", serif;
+        font-size: 3em;
+        color: var(--color2);
+        margin-bottom: 1rem;
+    }
+
+    .Readytocook h3{
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+    }
+
+    .signup {
+        padding: 4px;
+        font-size: small;
+        color: var(--background_color);
+        background-color: var(--background_color2);
+        border: none;
+        border-radius: 10%;
+    }
+
+    .friends p {
+        font-weight: bold;
+    }
+
+    .icon {
+        color: #B54627;
+        padding: 5px;
+        border-radius: 50%;
+    }
+    .socials {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-sec2 ul {
+        margin: auto;
+        margin-bottom: 1rem;
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+        color: var(--text_color);
+        font-size: 15px;
+        text-align: center;
+        transition: 0.15s, ease-in-out;
+        position: relative;
+    
+    }
+
+/*Tablet Styles*/
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/*Desktop Styles*/
+@media (min-width: 769px) {
+    .navBar {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        position: relative;
+        background-color: var(--background_color);
+        padding: 12px 20px; 
+        border-bottom: 1px solid var(--color);
+    }
+    
+    .logoGrp {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .logo {
+        width: 70px;
+    }
+    
+    .logo-text {
+        font-family: "Playfair-Display", serif;
+        font-size: 3em;
+        color: var(--color2);
+    }
+    
+    .menu {
+        display: flex;
+        padding-right: 10px;
+    }
+    
+    .menu li {
+        padding-left: 30px;
+    }
+    
+    .menu li a {
+        display: inline-block;
+        text-decoration: none;
+        color: var(--text_color);
+        font-size: 15px;
+        text-align: center;
+        transition: 0.15s, ease-in-out;
+        position: relative;
+        text-transform: uppercase;
+    }
+    
+    .menu li a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: var(--color);
+        transition: 0.15s, ease-in-out;
+    }
+    
+    .menu li a:hover:after {
+        width: 100%;
+    }
+    
+    .open-menu, .close-menu {
+        position: absolute;
+        color: var(--text_color);
+        cursor: pointer;
+        font-size: 1.5rem;
+        display: none;
+    }
+    
+    .open-menu {
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+    
+    .close-menu {
+        top: 20px;
+    }
+    
+    #check {
+        display: none;
+    }
+    
+    
+    .seg1 {
+        display:flex;
+        align-items: center;
+    }
+    .seg1-con {
+        width: 50%;
+    }
+    .img1 {
+        width:60%;
+    }
+
+    .seg2-textgrp {
+        text-align: center;  
+        padding: 2rem;
+        box-sizing: border-box;
+        border: 1px solid #B34726;
+        background-color: rgb(251, 249, 247);
+    }
+    
+    .img2 {
+        display:block;
+        margin: auto;
+        width: 50%;
+    }
+    .seg2 {
+        align-items: center;
+    }
+    
+
+    .maintrend-div {
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .trend-div {
+        flex:1;
+    }
+
+    .seg5-div-grp {
+        display: flex;
+        align-items: center;
+    }
+
+    .socials {
+        margin: auto;
+    }
+
+    .icons {
+        border-radius: 50%;
+    }
+
+    i {
+        width: 10px;
+    }
+
+    .footer-sec1-2{
+        padding:2rem;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .footer-sec2 ul {
+        margin: auto;
+        margin-bottom: 1rem;
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+        color: var(--text_color);
+        font-size: 15px;
+        text-align: center;
+        transition: 0.15s, ease-in-out;
+        position: relative;
+    
+    }
+}
+
